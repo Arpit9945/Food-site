@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-bg{
+    height: auto;
+    width: 90vw;
+    background: url(images/hamburger-b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    height: auto;
+    width: 98vw;
+    background-color: rgba(0, 0, 0, 0.591);
+}
+
+@media screen and (max-width:990px) {
+    nav img{
+        width: 10vw;
+    }
+}
+@media screen and (max-width:769px) {
+    .res-img{
+        height: 10vh;
+    }
+    #mrgnt{
+        margin-top: 20px;
+    }
+}
+.card{
+    padding: 30px;
+    border: none;
+}
+
+.form-text{
+    padding: 100px;
+}
+
+.form-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-center input{
+    width: 30vw;
+    height: 7vh;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+#contact{
+    border: 1px solid darkslategray;
+    text-align: center;
+    padding: 10px;
+}
+
+.main{
+    height: auto;
+    background-color: lightgray;
+}
+
+.bg-content{
+    height: 80vh;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.butn{
+    border-radius: 5px;
+    border: none;
+    width: 8rem;
+    background-color: rgb(236, 15, 15);
+    color: white;
+    font-weight: bold;
+}
